@@ -34,7 +34,6 @@ struct ListView: View {
             }
         }
         .navigationBarItems(
-            leading: EditButton(),
             trailing: NavigationLink(
                 destination: AddView(),
                 label: {
